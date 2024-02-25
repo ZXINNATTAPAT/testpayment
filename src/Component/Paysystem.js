@@ -30,19 +30,19 @@ const Paysystem = () => {
   return (<>
 
         <div className='container'> 
-        <br/><br/>
-            <div className='card'>
-                <div className='card-body'>
-                    {qrCodePayload && (
-                        <img
-                        src={`https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=${qrCodePayload}`}
-                        alt="QR Code"
-                        />
-                    )}
-                </div>
-            </div> 
-            <br/>
-            <a className='btn btn-primary m-1' href='/'>Old version</a><br/>
+          <br/><br/>
+              <div className='card'>
+                  <div className='card-body'>
+                      {qrCodePayload && (
+                          <img
+                          src={`https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=${qrCodePayload}`}
+                          alt="QR Code"
+                          />
+                      )}
+                  </div>
+              </div> 
+              <br/>
+              <a className='btn btn-primary m-1' href='/'>Old version</a><br/>
         </div>
      </>
   );

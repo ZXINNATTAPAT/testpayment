@@ -10,9 +10,11 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      
         <Routes>
           <Route path="/" element={ <Hosc/> } />
           <Route path="/ps2" element={ <Paysystem/> } />
+
           {/* <Route path="contact" element={ <Contact/> } /> */}
         </Routes>
       </BrowserRouter>
